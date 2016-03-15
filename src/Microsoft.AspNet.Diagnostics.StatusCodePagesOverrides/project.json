@@ -1,0 +1,17 @@
+{
+    "version": "1.0.1-rc1-final",
+    "description": "Extend StatusCodePages, Add `app.UseStatusCodePagesWithRedirects(\"~/400.html\", 400)` method, support asp.net 5 rc1-final",
+    "authors": [ "serveryang" ],
+    "tags": [ "StatusCodePagesOverrides" ],
+    "projectUrl": "https://github.com/serveryang/Microsoft.AspNet.Diagnostics.StatusCodePagesOverrides",
+    "licenseUrl": "",
+    "frameworks": {
+        "net451": { },
+        "dotnet5.4": { }
+    },
+    "dependencies": {
+        "Microsoft.AspNet.Diagnostics": "1.0.0-rc1-final",
+        "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
+        "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final"
+    }
+}
